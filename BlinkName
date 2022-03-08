@@ -1,0 +1,79 @@
+// ------------
+// Blink an LED
+// ------------
+
+int led1 = D7;
+
+void setup() {
+  // Assign "led1" as an output
+  pinMode(led1, OUTPUT);
+}
+
+// The following loop function blinks out "OZZY" in morse code, using the LED wired to pin D7.
+void loop() {
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(250);
+  
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(200);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(300);
+  digitalWrite(led1, LOW);
+  delay(250);
+  
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(200);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(300);
+  digitalWrite(led1, LOW);
+  delay(100);
+  
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(200);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
+  delay(100);
+  
+  delay(1000);
+}
